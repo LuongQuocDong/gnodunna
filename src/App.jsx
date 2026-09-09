@@ -1,6 +1,6 @@
 import GalaxyBackground from "./GalaxyBackground";
 import FadeLine from "./FadeLine";
-import { letter } from "./content";
+import { letter, letter2 } from "./content";
 import "./App.css";
 
 export default function App() {
@@ -18,6 +18,14 @@ export default function App() {
       <main className="letter">
         {letter.map((line, i) => (
           <FadeLine key={i} text={line.text} size={line.size} special={line.special} />
+        ))}
+      </main>
+
+      <div className="divider" aria-hidden="true">✦</div>
+
+      <main className="letter">
+        {letter2.map((line, i) => (
+          <FadeLine key={`l2-${i}`} text={line.text} size={line.size} special={line.special} />
         ))}
       </main>
 

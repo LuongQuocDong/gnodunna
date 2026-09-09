@@ -140,6 +140,16 @@ html, body, #root {
   100% { background-position: 200% center; }
 }
 
+.divider {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: rgba(244, 241, 255, 0.4);
+  font-size: 1.6rem;
+  margin: -6vh 0 4vh;
+  letter-spacing: 0.3em;
+}
+
 .signature {
   position: relative;
   z-index: 2;

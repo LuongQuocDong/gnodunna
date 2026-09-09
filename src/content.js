@@ -47,3 +47,50 @@ export const letter = [
   { text: "Của Tiên,", size: "lg" },
   { text: "Đông.", size: "xxxl", special: true },
 ];
+
+export const letter2 = [
+  { text: "Tiên à,", size: "xl", special: true },
+  { text: "Có một điều mà Đông muốn Tiên nhớ thật kỹ nè.", size: "lg" },
+  { text: "Dù ngoài kia có chuyện gì xảy ra đi nữa,", size: "sm" },
+  { text: "Tiên không hề một mình đâu.", size: "xxl", special: true },
+
+  { text: "Có thể bây giờ Đông chưa thể ở cạnh để nắm tay Tiên mỗi ngày, chưa thể chạy tới ngay lúc Tiên buồn hay mệt.", size: "md" },
+  { text: "Nhưng tình yêu của Đông dành cho Tiên vẫn ở đó, chưa từng vơi đi chút nào hết.", size: "lg" },
+
+  { text: "Nên nếu có ngày nào đó Tiên cảm thấy áp lực quá, mệt quá, hay thấy cả thế giới như đang chống lại mình,", size: "md" },
+  { text: "thì cứ nhớ rằng vẫn luôn có một người ở đây thương Tiên rất nhiều.", size: "lg" },
+  { text: "Vẫn luôn chọn Tiên.", size: "xl", special: true },
+  { text: "Vẫn luôn đứng về phía Tiên.", size: "xl", special: true },
+  { text: "Và vẫn luôn mong Tiên được bình an.", size: "xl", special: true },
+
+  { text: "Đông không cần Tiên lúc nào cũng phải mạnh mẽ đâu.", size: "lg" },
+  { text: "Không cần Tiên phải cố gắng gồng lên để chứng minh rằng mình ổn.", size: "md" },
+  { text: "Nếu mệt thì nghỉ một chút.", size: "md" },
+  { text: "Nếu buồn thì cứ khóc một chút.", size: "md" },
+  { text: "Nếu nhớ Đông thì cứ nhớ thiệt nhiều luôn cũng được.", size: "lg" },
+  { text: "Bởi vì với Đông, Tiên không cần phải hoàn hảo.", size: "sm" },
+  { text: "Tiên chỉ cần là Tiên thôi.", size: "xxl", special: true },
+
+  { text: "Đông biết cuộc sống ngoài kia có rất nhiều thứ làm người ta lo lắng.", size: "md" },
+  { text: "Nhưng riêng chuyện tình cảm của tụi mình, Đông muốn Tiên được yên tâm.", size: "lg" },
+  { text: "Đông vẫn ở đây.", size: "xl", special: true },
+  { text: "Vẫn thương Tiên như những ngày đầu tiên.", size: "lg" },
+  { text: "Vẫn mong chờ ngày được gặp lại Tiên như vậy.", size: "lg" },
+
+  { text: "Khoảng cách có thể làm tụi mình nhớ nhau nhiều hơn, nhưng sẽ không làm Đông thương Tiên ít đi.", size: "md" },
+  { text: "Hoàn toàn không.", size: "xl", special: true },
+
+  { text: "Cho nên mỗi khi cảm thấy chông chênh, Tiên hãy nhớ rằng tụi mình vẫn đang cùng nhìn về một hướng.", size: "md" },
+  { text: "Hôm nay xa nhau một chút thôi.", size: "sm" },
+  { text: "Rồi sẽ có ngày Đông được về.", size: "lg" },
+  { text: "Được ôm Tiên thật chặt.", size: "xl", special: true },
+  { text: "Được bù lại tất cả những ngày tháng phải nhớ nhau qua màn hình điện thoại.", size: "md" },
+
+  { text: "Vậy nên từ giờ tới lúc đó, Tiên cứ an tâm nha.", size: "lg" },
+  { text: "An tâm rằng Đông yêu Tiên.", size: "xl", special: true },
+  { text: "An tâm rằng Đông vẫn chờ Tiên.", size: "xl", special: true },
+  { text: "An tâm rằng trong trái tim Đông, Tiên vẫn luôn là nơi bình yên nhất.", size: "xxl", special: true },
+
+  { text: "Và cũng mong Đông sẽ là nơi bình yên của Tiên. ❤️", size: "xxl", special: true },
+  { text: "9 - 9 - 2026", size: "lg" },
+];
