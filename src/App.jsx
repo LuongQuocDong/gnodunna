@@ -1,5 +1,6 @@
 import GalaxyBackground from "./GalaxyBackground";
 import FadeLine from "./FadeLine";
+import BirthdaySection from "./BirthdaySection";
 import { letter, letter2 } from "./content";
 import "./App.css";
 
@@ -28,6 +29,10 @@ export default function App() {
           <FadeLine key={`l2-${i}`} text={line.text} size={line.size} special={line.special} />
         ))}
       </main>
+
+      <div className="divider" aria-hidden="true">✦</div>
+
+      <BirthdaySection />
 
       <footer className="signature">
         <p>— Đông 💌</p>

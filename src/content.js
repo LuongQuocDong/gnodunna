@@ -94,3 +94,33 @@ export const letter2 = [
   { text: "Và cũng mong Đông sẽ là nơi bình yên của Tiên. ❤️", size: "xxl", special: true },
   { text: "9 - 9 - 2026", size: "lg" },
 ];
+
+// Thư chúc mừng sinh nhật Tiên — 3/10
+export const birthday = [
+  { text: "Hôm nay là ngày đặc biệt nhất trong năm nè,", size: "md" },
+  { text: "ngày công chúa của Đông ra đời đó.", size: "xl", special: true },
+
+  { text: "Tuổi mới rồi, Đông hỏng chúc gì to tát đâu,", size: "md" },
+  { text: "chỉ mong Tiên có thật nhiều thứ nhỏ nhỏ mà xịn xò thôi:", size: "md" },
+
+  { text: "Sức khoẻ thật nhiều,", size: "xl", rainbow: true },
+  { text: "ăn ngon, ngủ ngon, hỏng ốm vặt, hỏng thức khuya chạy deadline nữa nha.", size: "md" },
+
+  { text: "Tình thương thật nhiều,", size: "xl", rainbow: true },
+  { text: "từ gia đình, từ bạn bè, và tất nhiên là phần to nhất là từ Đông rồi.", size: "md" },
+
+  { text: "May mắn thật nhiều,", size: "xl", rainbow: true },
+  { text: "khách dễ thương, việc suôn sẻ, ví lúc nào cũng căng phồng kkk.", size: "md" },
+
+  { text: "Còn nữa nè,", size: "sm" },
+  { text: "tuổi mới là phải xinh hơn,", size: "xl", special: true },
+  { text: "glow up hơn,", size: "xxl", rainbow: true },
+  { text: "cười nhiều hơn như cái tấm ảnh này nè, cười tít cả mắt luôn á.", size: "md" },
+
+  { text: "Năm nay Đông chưa ở bên cạnh để thổi nến cùng Tiên được,", size: "md" },
+  { text: "nên Tiên nhớ ước thêm một điều ước phần Đông nữa nha.", size: "lg" },
+  { text: "Năm sau tụi mình thổi nến chung.", size: "xl", special: true },
+
+  { text: "Sinh nhật vui vẻ nha, công chúa của Đông!", size: "xxl", rainbow: true },
+  { text: "Thương Tiên nhiều lắm. 🎂💖", size: "xl", special: true },
+];

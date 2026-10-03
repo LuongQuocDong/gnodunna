@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-export default function FadeLine({ text, size, special }) {
+export default function FadeLine({ text, size, special, rainbow }) {
   const ref = useRef(null);
   const [visible, setVisible] = useState(false);
 
@@ -22,7 +22,7 @@ export default function FadeLine({ text, size, special }) {
   return (
     <p
       ref={ref}
-      className={`line size-${size} ${special ? "special" : ""} ${
+      className={`line size-${size} ${special ? "special" : ""} ${rainbow ? "rainbow-text" : ""} ${
         visible ? "visible" : ""
       }`}
     >
