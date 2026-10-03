@@ -1,6 +1,7 @@
 import GalaxyBackground from "./GalaxyBackground";
 import FadeLine from "./FadeLine";
 import BirthdaySection from "./BirthdaySection";
+import BackgroundMusic from "./BackgroundMusic";
 import { letter, letter2 } from "./content";
 import "./App.css";
 
@@ -9,6 +10,7 @@ export default function App() {
     <div className="app">
       <GalaxyBackground />
       <div className="overlay" />
+      <BackgroundMusic />
 
       <header className="hero">
         <h1 className="hero-title">Gửi Tiên,</h1>

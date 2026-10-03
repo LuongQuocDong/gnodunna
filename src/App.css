@@ -345,3 +345,59 @@ html {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+/* ===== Nút nhạc nền ===== */
+.music-toggle {
+  position: fixed;
+  right: 1.1rem;
+  bottom: 1.1rem;
+  z-index: 10;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 1px solid rgba(216, 180, 254, 0.35);
+  background: rgba(20, 14, 40, 0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  box-shadow: 0 0 18px rgba(168, 85, 247, 0.25);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  padding: 0;
+}
+
+.music-toggle:focus-visible {
+  outline: 2px solid #d8b4fe;
+  outline-offset: 3px;
+}
+
+.music-toggle .bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 16px;
+}
+
+.music-toggle .bars i {
+  width: 3px;
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(to top, #d78bff, #6ee7ff);
+  transition: height 0.3s ease;
+}
+
+.music-toggle.is-playing .bars i {
+  animation: eq 1s ease-in-out infinite;
+}
+.music-toggle.is-playing .bars i:nth-child(2) { animation-delay: -0.3s; }
+.music-toggle.is-playing .bars i:nth-child(3) { animation-delay: -0.6s; }
+.music-toggle.is-playing .bars i:nth-child(4) { animation-delay: -0.15s; }
+
+@keyframes eq {
+  0%, 100% { height: 4px; }
+  50% { height: 16px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .music-toggle.is-playing .bars i { animation: none; height: 12px; }
+}
