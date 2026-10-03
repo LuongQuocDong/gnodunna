@@ -117,9 +117,10 @@ export const birthday = [
   { text: "glow up hơn,", size: "xxl", rainbow: true },
   { text: "cười nhiều hơn như cái tấm ảnh này nè, cười tít cả mắt luôn á.", size: "md" },
 
-  { text: "Năm nay Đông chưa ở bên cạnh để thổi nến cùng Tiên được,", size: "md" },
-  { text: "nên Tiên nhớ ước thêm một điều ước phần Đông nữa nha.", size: "lg" },
-  { text: "Năm sau tụi mình thổi nến chung.", size: "xl", special: true },
+  { text: "Năm nay dù Đông có đi nghĩa vụ,", size: "md" },
+  { text: "mà hên ghê, Đông vẫn được ở bên cạnh", size: "lg" },
+  { text: "hun vào má Tiên một cái nè. 😚", size: "xl", special: true },
+  { text: "Tiên nhớ ước thêm một điều ước phần Đông nữa nha.", size: "lg" },
 
   { text: "Sinh nhật vui vẻ nha, công chúa của Đông!", size: "xxl", rainbow: true },
   { text: "Thương Tiên nhiều lắm. 🎂💖", size: "xl", special: true },
