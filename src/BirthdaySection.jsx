@@ -4,7 +4,7 @@ import tienPhoto from "./assets/tien-birthday.jpg";
 
 export default function BirthdaySection() {
   return (
-    <section className="birthday">
+    <section className="birthday" id="sinh-nhat">
       <p className="bday-date">03 · 10</p>
       <h2 className="bday-title rainbow-text">
         Chúc mừng sinh nhật

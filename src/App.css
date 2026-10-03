@@ -269,3 +269,74 @@ html, body, #root {
     animation: none;
   }
 }
+
+/* ===== Mục lục ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+#thu-1, #thu-2, #sinh-nhat {
+  scroll-margin-top: 2rem;
+}
+
+.toc {
+  margin-top: 3rem;
+  padding: 1.25rem 1.75rem 1.4rem;
+  min-width: min(88vw, 340px);
+  border: 1px solid rgba(216, 180, 254, 0.25);
+  border-radius: 18px;
+  background: rgba(20, 14, 40, 0.45);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  box-shadow: 0 0 30px rgba(168, 85, 247, 0.15);
+}
+
+.toc-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: rgba(233, 213, 255, 0.7);
+  margin-bottom: 0.8rem;
+}
+
+.toc ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  text-align: left;
+}
+
+.toc a {
+  display: flex;
+  align-items: baseline;
+  gap: 0.8rem;
+  font-style: italic;
+  font-size: clamp(1.1rem, 3vw, 1.3rem);
+  color: #eae4ff;
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.toc a:hover,
+.toc a:focus-visible {
+  color: #fff;
+  text-shadow: 0 0 12px rgba(216, 180, 254, 0.8);
+  transform: translateX(4px);
+  outline: none;
+}
+
+.toc-num {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-size: 0.8em;
+  min-width: 1.6em;
+  color: #d8b4fe;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
