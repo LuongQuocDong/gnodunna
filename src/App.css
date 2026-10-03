@@ -242,20 +242,26 @@ html, body, #root {
 .bday-photo::before {
   content: "";
   position: absolute;
-  inset: 8%;
+  inset: 6%;
   z-index: -1;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(255, 110, 199, 0.35), rgba(139, 155, 255, 0.2) 50%, transparent 75%);
+  background: linear-gradient(120deg, rgba(255, 110, 199, 0.3), rgba(139, 155, 255, 0.25), rgba(110, 231, 255, 0.2));
   filter: blur(40px);
-  animation: rainbow-glow 4s ease-in-out infinite;
+  opacity: 0.8;
 }
 
 .bday-photo img {
   display: block;
   width: 100%;
   height: auto;
-  -webkit-mask-image: radial-gradient(ellipse 50% 50% at 50% 48%, #000 40%, rgba(0, 0, 0, 0.5) 70%, transparent 100%);
-  mask-image: radial-gradient(ellipse 50% 50% at 50% 48%, #000 40%, rgba(0, 0, 0, 0.5) 70%, transparent 100%);
+  /* mờ dần theo 4 cạnh, giữ khung chữ nhật */
+  -webkit-mask-image:
+    linear-gradient(to right, transparent, #000 12%, #000 88%, transparent),
+    linear-gradient(to bottom, transparent, #000 12%, #000 88%, transparent);
+  -webkit-mask-composite: source-in;
+  mask-image:
+    linear-gradient(to right, transparent, #000 12%, #000 88%, transparent),
+    linear-gradient(to bottom, transparent, #000 12%, #000 88%, transparent);
+  mask-composite: intersect;
 }
 
 .bday-letter {
@@ -264,8 +270,7 @@ html, body, #root {
 
 @media (prefers-reduced-motion: reduce) {
   .rainbow-text,
-  .line.rainbow-text.visible,
-  .bday-photo::before {
+  .line.rainbow-text.visible {
     animation: none;
   }
 }

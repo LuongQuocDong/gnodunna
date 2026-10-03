@@ -91,7 +91,7 @@ export const letter2 = [
   { text: "An tâm rằng Đông vẫn chờ Tiên.", size: "xl", special: true },
   { text: "An tâm rằng trong trái tim Đông, Tiên vẫn luôn là nơi bình yên nhất.", size: "xxl", special: true },
 
-  { text: "Và cũng mong Đông sẽ là nơi bình yên của Tiên. ❤️", size: "xxl", special: true },
+  { text: "Và cũng mong Đông sẽ là nơi bình yên của Tiên.", size: "xxl", special: true },
   { text: "9 - 9 - 2026", size: "lg" },
 ];
 
@@ -104,7 +104,7 @@ export const birthday = [
   { text: "chỉ mong Tiên có thật nhiều thứ nhỏ nhỏ mà xịn xò thôi:", size: "md" },
 
   { text: "Sức khoẻ thật nhiều,", size: "xl", rainbow: true },
-  { text: "ăn ngon, ngủ ngon, hỏng ốm vặt, hỏng thức khuya chạy deadline nữa nha.", size: "md" },
+  { text: "ăn ngon, ngủ ngon, hỏng ốm vặt, hỏng thức khuya bấm điện thoại hoặc nhớ Đông nữa nha.", size: "md" },
 
   { text: "Tình thương thật nhiều,", size: "xl", rainbow: true },
   { text: "từ gia đình, từ bạn bè, và tất nhiên là phần to nhất là từ Đông rồi.", size: "md" },
@@ -119,9 +119,9 @@ export const birthday = [
 
   { text: "Năm nay dù Đông có đi nghĩa vụ,", size: "md" },
   { text: "mà hên ghê, Đông vẫn được ở bên cạnh", size: "lg" },
-  { text: "hun vào má Tiên một cái nè. 😚", size: "xl", special: true },
+  { text: "hun vào má Tiên một cái nè.", size: "xl", special: true },
   { text: "Tiên nhớ ước thêm một điều ước phần Đông nữa nha.", size: "lg" },
 
   { text: "Sinh nhật vui vẻ nha, công chúa của Đông!", size: "xxl", rainbow: true },
-  { text: "Thương Tiên nhiều lắm. 🎂💖", size: "xl", special: true },
+  { text: "Thương Tiên nhiều lắm.", size: "xl", special: true },
 ];

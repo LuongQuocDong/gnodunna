@@ -44,7 +44,7 @@ export default function App() {
       <BirthdaySection />
 
       <footer className="signature">
-        <p>— Đông 💌</p>
+        <p>— Đông</p>
       </footer>
     </div>
   );
